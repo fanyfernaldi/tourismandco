@@ -29,6 +29,7 @@ class LocationDetail extends StatelessWidget {
                       EdgeInsets.symmetric(vertical: 20.0, horizontal: 4.0),
                   child: LocationTile(location: location),
                 ),
+                // kalo di javascript ..adAll itu kayak append Fan
               ]..addAll(textSections(location))),
         ));
   }

@@ -1,5 +1,5 @@
 import './location_fact.dart';
-import 'package:meta/meta.dart';
+// import 'package:meta/meta.dart';
 
 /// Represents a tourism location a user can visit.
 class Location {

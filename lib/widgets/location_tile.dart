@@ -26,11 +26,11 @@ class LocationTile extends StatelessWidget {
               overflow: TextOverflow.ellipsis,
               maxLines: 1,
               style:
-                  Theme.of(context).textTheme.title.copyWith(color: textColor),
+                  Theme.of(context).textTheme.headline6.copyWith(color: textColor),
             ),
             Text(
               location.userItinerarySummary.toUpperCase(),
-              style: Theme.of(context).textTheme.subtitle,
+              style: Theme.of(context).textTheme.subtitle2,
             ),
             Text(
               location.tourPackageName.toUpperCase(),
